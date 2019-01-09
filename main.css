@@ -1,0 +1,46 @@
+body{
+    background: black;
+}
+.navbar{
+    background: #400256;
+}
+.navbar a{
+    color: #D00014;
+}
+.jumbotron{
+    background-image: url(https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1, h3, h4, p{
+    color:white;
+}
+main{
+    background: linear-gradient(315deg,#400256 , #D00014 60%);
+    padding:25px 0;
+}
+h1{
+    padding-right: 40px;
+}
+footer .container-fluid{
+    padding:20px;
+}
+footer .nav a{
+    background: #0E318A;
+    color: white;
+    margin 0 20px;
+    border-radius: 50%;
+    transition: 0.3s
+}
+footer .nav a:hover{
+    transform: scale(2);
+    background: #126AD4;
+}
+footer .list-group, .list-group-item{
+    background-color: #0E318A;
+}
+footer p{
+    color: black;
+    font-weight: bold;
+}
+
